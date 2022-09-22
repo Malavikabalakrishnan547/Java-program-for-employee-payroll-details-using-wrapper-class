@@ -1,0 +1,42 @@
+import java.lang.*;
+
+public class wrapper {
+
+    public static void main(String args[]) {
+        int i = 25;
+        Integer intobj = i;
+
+        int id = 14;
+        Integer obj = id;
+
+        int a = 1000;
+        Integer intob = a;
+
+        float f = 1000F;
+        Float ob = f;
+
+        float sal = intobj * ob;
+        Float fl = sal;
+
+        float net = (fl + intob);
+        Float flt = net;
+
+        System.out.println("||||Employee payroll details||||\n_________________________________________");
+        System.out.println("Employee name:JonaEra");
+        System.out.println("Employee ID:" + obj);
+        System.out.println("No:of working days:" + intobj);
+        System.out.println("DA and Ta:" + intob);
+        System.out.println("Gross Salary of the employee:" + fl);
+        System.out.println("Net salary:" + net);
+    }
+
+}
+//OUTPUT OF THE ABOVE CODE
+||||Employee payroll details||||
+_________________________________________
+Employee name:JonaEra
+Employee ID:14
+No:of working days:25
+DA and Ta:1000
+Gross Salary of the employee:25000.0
+Net salary:26000.0
